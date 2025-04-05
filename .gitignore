@@ -1,0 +1,45 @@
+# Pliki i foldery CMake
+/build/
+*.cmake
+
+# Pliki binarne
+*.exe
+*.out
+*.o
+*.so
+*.a
+*.dll
+
+# Pliki tymczasowe
+*~ 
+*.swp
+*.swo
+
+# Foldery build generowane przez CMake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# Pliki edytorów
+.vscode/
+.idea/
+
+# Pliki logów
+*.log
+
+# Inne pliki specyficzne dla IDE
+*.sdf
+*.suo
+*.user
+*.ncb
+*.aps
+*.pch
+*.pdb
+
+# Biblioteki pośrednie (jeśli używasz biblioteki pkg-config)
+lib/*.la
+lib/*.lo
+lib/*.o
+
+# Moje pliki
+commitMessages.txt
